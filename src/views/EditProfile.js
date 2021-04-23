@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const EditProfile = () => {
+  const [username, setNewUsername] = useState("");
   return (
     <div>
       <Link to="/profile">
